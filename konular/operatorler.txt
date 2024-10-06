@@ -1,0 +1,81 @@
+// Mantıksal operatorler
+
+
+    &&  :  ve operatoru her iki kosulunda TRUE olması beklenen durumda kullanılır.örn login işlemine pass ve username in doğru olması gibi.
+true && true : true
+true && false : false 
+
+
+    || : veya operatoru iki kosuldan birinmin TRUE olmasının yeterli olduğu durumlar için kullanılır.
+true || false : true
+false || true : true
+
+     ! : değil operatoru operandın önüne eklenerek mantıklsal değeri tersine döndürür 
+
+!(true) : false
+!(false) : true
+
+
+
+// ATAMA OPERATORLERİ
+    = : eşittir operatoru değişkene değer atanmasını sağlar
+a = 8
+b = 12  
+
+    += : toplama ataması değişkenin kendi değeri ilave edilerek atama için kullanılır
+a+=b ===>sonucu a = a + b dir.
+
+    -= : cıkarma ataması değişkenin kendi değerini ilave ederek atama için kullanılır.
+a-=b ===>sonucu a = a-b dir.
+
+    *= : carpma ataması değişkenin kendi değeri ileave edilerek atam için kullanılır.
+a*=b ===>sonucu a = a * b dir.
+
+    %= : modülüs(kalan) ataması değişkenin diğer değişkene bölümünden kalan değişkene atanır.
+a%=b ===>sonucu a = a % b dir . a'nın b'ye bölümünden kalan değer a'ya atanır.
+
+    **= : üs al atamsı değişkenin kendi değerinin değişkenin diğer değişken ile kac kez carpılacağını iafe ederek
+a**=b ===>sonucu a = a **b ( a=2 b=3 ise anın 3 kez kendisi ile carpılması anlamına gelir)
+
+
+// KARŞILAŞTIRMA OPERATORLERİ
+!! karsılastırma operatorlerinde boolean değer geri döndürülür.
+    == : EŞİT İSE  iki değişkenin değeri tipine bakılmaksızın eşit ise.
+ozkan == ozkan  : TRUE döner
+ozkan == irem : FALSE döner.
+8 == "8" : TRUE döner. veri tipine bakılmaksızın içeriğe bakıldığı için TRUE döner.
+
+    != : EŞİT DEĞİL İSE operatorlerin eşitsizlik sınaması için kullanılır.
+ozkan != ozkan : FALSE  döner cünkü değerler birbirine eşit.
+ozkan != irem : TRUE döner cünkü değerler birbirineden farklı.ve yine veri tipine bakılmaz.
+
+    === : DENK İSE değerler arasında veri tiplerine bakarak kontrol yapar.
+ozkan === ozkan : TRUE döner cünkü değerler ve tipler birbirine eşit yani denk.
+8 = "8" : FALSE döner.içerikler aynı fakat veri tipleri farklıdır.
+
+    !== : DENK DEĞİL İSE . değerlerin denklik olmama sınamasını yapar.
+ozkan!==ozkan : FALSE : cünkü hem tipler hem değerler eşit.
+8!=="8" : TRUE döner. cünkü veri tipleri ve değerler birbirine eşit.
+
+    < : KÜÇÜKSE ilk değerin ikinci değerden kücük olmasınna bakar.
+5<8 : TRUE 
+    > : BÜYÜKSE ilk değerin ikinciden büyük olmasına bakar.
+8>5 : TRUE
+    <= :  KÜCÜK VEYA EŞİTSE
+5<=8 : TRUE 
+    >= : BÜYÜK VEYA EŞİTSE
+5>=8 : FALSE . 5 8den büyük veya eşit değil.
+
+
+// ARİTMEİK İŞLEM OPERATORLERİ
+    + : operatoru değerler arasında toplama işlemi yapar.
+    - : değerler arasında cıakrma işlemi yapar.
+    * : değerler arsında carpma işlemi yapar.
+    / : değerler arasında bölme işlemi yapar.
+    % : değerlerin birbirine bölümünden kalanı bulmak için kullanılır.
+    ** : üst alma ilk değerin 2.değeri kadar kendisiyle carpar.
+    ++ : değerin önüne eklenirse ilk calısmada artırark calıstırır.arkasına eklenirse 2.calısmada artırma işlemini yapar.
+    -- : değerin önüne eklenirse ilk calısmsada eksiltrrek calıstırır. arkasıan eklenirse 2.calısmada cıkarma işlemini yapar.
+
+    
+
